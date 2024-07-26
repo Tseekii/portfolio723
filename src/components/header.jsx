@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="flex items-center justify-between px-20 py-4">
       <h1 className="text-gray-900 font-bold text-3xl">Tseki</h1>
-      <div className="flex gap-6">
+      <div className="flex gap-7">
         <ul className="font-base flex text-gray-900 gap-6 text-xl">
           <li>About</li>
           <li>work</li>
