@@ -1,8 +1,12 @@
 const Experience = () => {
   return (
-    <div className="mx-20">
-      <button className="bg-gray-200 flex  justify-center text-base border-solid">About me</button>
-      <div className="flex w-1/2">
+    <div className="mx-20 mt-20">
+      <div className="flex justify-center">
+        <span className="bg-gray-200 text-base border-solid rounded-xl px-2 py-1">
+          About me
+        </span>
+      </div>
+      <div className="flex w-1/2 justify justify-between gap-8">
         <div className="relative">
           <div className="w-[280px] h-[320px] bg-gray-400 border-solid-[0px] absolute -z-10 -right-5 -bottom-5"></div>
           <img

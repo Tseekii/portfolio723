@@ -1,8 +1,7 @@
 const Upwork = ({ title, date, image }) => {
   return (
     <div className="flex">
-      <img src={image} />
-         <div>
+      <div>
         <h3>{title}</h3>
         <ul>
           <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>

@@ -4,6 +4,7 @@ import { GoDotFill } from "react-icons/go";
 import { LiaCatSolid } from "react-icons/lia";
 import { FiTwitter } from "react-icons/fi";
 import { LuFigma } from "react-icons/lu";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
