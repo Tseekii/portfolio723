@@ -1,7 +1,7 @@
 const Experience = () => {
   return (
     <div className="mx-20">
-      <button className="bg-gray-200 flex ">About me</button>
+      <button className="bg-gray-200 flex  justify-center text-base border-solid">About me</button>
       <div className="flex w-1/2">
         <div className="relative">
           <div className="w-[280px] h-[320px] bg-gray-400 border-solid-[0px] absolute -z-10 -right-5 -bottom-5"></div>
@@ -11,7 +11,7 @@ const Experience = () => {
             className="w-[280px] h-[320px] border-solid border-8 border-white "
           />
         </div>
-        <div className="flex-1 ">
+        <div className="flex-1 gap-8">
           <h1>Curious about me? Here you have it:</h1>
           <h6>
             I'm a designer turned full stack developer, passionate about

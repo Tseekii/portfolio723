@@ -8,7 +8,7 @@ import { LuFigma } from "react-icons/lu";
 const About = () => {
   return (
     <div className="mx-20 flex gap-8 mt-20">
-      <div className="w-1/2 bg-orange-300 mt-3">
+      <div className="w-1/2 mt-3">
         <div className="max-w-[700px]">
           <h1 className="text-6xl text-gray-900 "> Hi, I'm Tseki ✋</h1>
 
@@ -38,7 +38,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex-1  bg-red-300 p-5">
+      <div className="flex-1 ">
         <div className="w-[280px] h-[320px] relative m-auto">
           <div className="w-[280px] h-[320px] bg-gray-400 border-solid-[0px] absolute -z-10 -right-5 -bottom-5"></div>
           <img
